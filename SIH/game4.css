@@ -1,0 +1,150 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Courtroom Container */
+  
+  #courtroom-container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Courtroom Header */
+  
+  #courtroom-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  #courtroom-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Courtroom Chat Log */
+  
+  #courtroom-chat-log {
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #courtroom-chat-log p {
+    margin: 10px 0;
+  }
+  
+  #courtroom-chat-log strong {
+    color: #333;
+  }
+  
+  /* Courtroom Input Container */
+  
+  #courtroom-input-container {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f7f7f7;
+  }
+  
+  #chat-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  #send-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Courtroom Users Online */
+  
+  #courtroom-users-online {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f7f7f7;
+  }
+  
+  .online-user {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .online-user p {
+    margin: 0;
+  }
+  
+  /* Courtroom Decorations */
+  
+  .courtroom-decorations {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .courtroom-decorations img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .courtroom-decorations h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Add some courtroom decorations */
+  
+  #courtroom-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://via.placeholder.com/100x100");
+    background-size: 100% 100%;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  
+  #courtroom-header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://via.placeholder.com/100x100");
+    background-size: 100% 100%;
+    opacity: 0.2;
+    z-index: -1;
+  }

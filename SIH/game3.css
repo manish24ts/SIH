@@ -1,0 +1,76 @@
+.game-container {
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+}
+
+.square {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
+
+.player {
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#player-1 {
+    background-color: #ff0000;
+}
+
+#player-2 {
+    background-color: #0000ff;
+}
+
+#roll-dice-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#roll-dice-btn:hover {
+    background-color: #3e8e41;
+}
+
+#game-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#game-container {
+    width: 2000px; /* adjust the width to fit your game board */
+    height: 200px; /* adjust the height to fit your game board */
+    background-color: #f0f0f0; /* light gray background */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .token {
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000; /* red color for the pawn */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }

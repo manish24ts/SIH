@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif; /* Add a font family */
+    margin: 0; /* Remove default margin */
+  }
+  
+  header {
+    background-color: #333; /* Add a dark background color */
+    padding: 10px; /* Add some padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  .header-ribbon {
+    background-color: #000000; /* Add a blue background color */
+    color: #fff; /* Set the text color to white */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Add a subtle border radius */
+  }
+  
+  .header-ribbon h1 {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    margin: 0; /* Remove default margin */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff; /* Change the text color to white */
+    text-decoration: none;
+    font-weight: bold; /* Make the font bold */
+  }
+  
+  nav a:hover {
+    color: #ccc; /* Change the text color on hover to light gray */
+  }
+  
+  .game-section {
+    padding: 20px;
+  }
+  
+  .game-section h1 {
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    margin-bottom: 10px; /* Add some margin bottom */
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Center the grid items */
+    align-items: center; /* Vertically center the grid items */
+  }
+  .game-thumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .game-thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .game-thumbnail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .game-thumbnail p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .game-thumbnail button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .game-thumbnail button:hover {
+    background-color: #444;
+  }
